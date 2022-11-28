@@ -21,7 +21,7 @@ public class UndoableStringBuilder {
     private StringBuilder sb;//Attribute of type StringBuilder that the operations will be done on it
     private Stack<UndoableStringBuilder> Undo_Stack;//Stack used for undo operation , after every method call , the new string will be added to the stack
 
-    private boolean Is_String_Constructor_used = false;//boolean attribute for the object to check if it was constructed with the second constructor (String constructor)
+    private boolean Is_String_Constructor_used = false;// boolean attribute for the object to check if it was constructed with the second constructor (String constructor)
 
 
     /**
